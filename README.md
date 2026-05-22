@@ -219,11 +219,12 @@ Input:
 
 Example Response:
 
-```json
+
 {
-    "message": "Secret Message Encoded Successfully",
-    "encoded_image": "encoded/encoded_image.png"
+  "message": "Secret Message Encoded Successfully",
+  "encoded_image": "encoded/encoded_image.png"
 }
+
 Example - Decode
 
 POST /decode
