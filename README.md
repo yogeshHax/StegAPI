@@ -209,7 +209,6 @@ Swagger Docs :
 | POST | /image-info | Get image metadata |
 
 ---
-
 ## Example - Encode
 
 POST /encode
@@ -234,6 +233,26 @@ Example Response:
 {
     "decoded_message": "alpha"
 }
+Logging System
+
+StegAPI stores operation history inside:
+
+logs/history.json
+
+The logs track:
+
+Encode operations
+Decode operations
+Filenames
+Timestamps
+
+Why PNG Only
+
+PNG images use lossless compression.
+
+Formats like JPEG compress image data and destroy hidden binary information, making steganography unreliable.
+
+Because of this, StegAPI only supports PNG images.
 
 ## Screenshots
 
@@ -252,25 +271,3 @@ Example Response:
 ![Screenshot 187](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(187).png?raw=true)
 
 ![Screenshot 188](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(188).png?raw=true)
-
-
-
-Logging System
-
-StegAPI stores operation history inside:
-
-logs/history.json
-
-The logs track:
-
-Encode operations
-Decode operations
-Filenames
-Timestamps
-Why PNG Only
-
-PNG images use lossless compression.
-
-Formats like JPEG compress image data and destroy hidden binary information, making steganography unreliable.
-
-Because of this, StegAPI only supports PNG images.
