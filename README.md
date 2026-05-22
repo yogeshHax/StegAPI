@@ -234,6 +234,27 @@ Example Response:
 {
     "decoded_message": "alpha"
 }
+
+## Screenshots
+
+### API Working Demo
+
+![Screenshot 182](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(182).png?raw=true)
+
+![Screenshot 183](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(183).png?raw=true)
+
+![Screenshot 184](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(184).png?raw=true)
+
+![Screenshot 185](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(185).png?raw=true)
+
+![Screenshot 186](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(186).png?raw=true)
+
+![Screenshot 187](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(187).png?raw=true)
+
+![Screenshot 188](https://github.com/yogeshHax/StegAPI/blob/main/images_working/Screenshot%20(188).png?raw=true)
+
+
+
 Logging System
 
 StegAPI stores operation history inside:
