@@ -1,0 +1,13 @@
+[project]
+name = "stegapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.136.1",
+    "pillow>=12.2.0",
+    "python-multipart>=0.0.29",
+    "slowapi>=0.1.9",
+    "uvicorn>=0.47.0",
+]

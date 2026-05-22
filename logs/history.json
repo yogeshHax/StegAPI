@@ -1,0 +1,13 @@
+[
+    {
+        "type": "encode",
+        "filename": "done.png",
+        "message_length": 8,
+        "timestamp": "2026-05-21 23:47:05.811134"
+    },
+    {
+        "type": "decode",
+        "filename": "encoded_image (1).png",
+        "timestamp": "2026-05-21T23:47:19.997790"
+    }
+]
